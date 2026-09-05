@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CB Art Gallery</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="home.html">CB Art</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a class="active" href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="dark-mode-switch">
+                    <a><label class="switch">
+                        <input type="checkbox" id="darkModeToggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span>Dark Mode</span></a>
+                </div>
+                <b class="icon" onclick="toggleNavbar()">&#9776;</b>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <h1>Gallery</h1>
+        <script src="scripts/darkmode.js"></script>
+        <script src="scripts/navbar.js"></script>
+    </body>
+</html>
